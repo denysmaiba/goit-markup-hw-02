@@ -10,7 +10,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-
 .link {
   text-decoration: none;
   color: #212121;
@@ -29,6 +28,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .logo-dark {
   color: var(--main-color);
 }
@@ -41,12 +41,14 @@ body {
 .nav-list .link.current {
   color: var(--accent-color);
 }
+
 .nav-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
+
 .link-item {
   font-weight: 500;
   font-size: 14px;
@@ -54,19 +56,23 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 .link-item:hover,
 .link-item:focus {
   color: var(--accent-color);
 }
+
 /*------------------------ Hero ------------------------- */
 .hero {
   background-color: #2f303a;
 }
+
 .hero-title {
   font-size: 44px;
   line-height: 1.36;
   color: var(--white-color-text);
 }
+
 .hero-button {
   font-family: inherit;
   font-weight: 700;
@@ -77,6 +83,7 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+
 /*------------------------ Preference ------------------------- */
 .visually-hidden {
   position: absolute;
@@ -90,12 +97,14 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .features-title {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .features-text {
   font-weight: 400;
   font-size: 14px;
@@ -103,12 +112,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 /*------------------------ Work ------------------------- */
 .section-caption {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
 /*------------------------ Team ------------------------- */
 .team-caption {
   font-weight: 700;
@@ -129,13 +140,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+
 /*------------------------ Footer ------------------------- */
 .logo-light {
   color: var(--white-color-text);
 }
+
 .footer {
   background: var(--background);
 }
+
 .adres-link {
   font-style: normal;
   font-size: 14px;
@@ -143,6 +157,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--white-color-text);
 }
+
 .adres-link-contacts {
   font-style: normal;
   font-size: 14px;
@@ -150,6 +165,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--address-links-footer);
 }
+
 /*------------------------ Portfolio ------------------------- */
 .filter-button {
   font-family: inherit;
@@ -160,6 +176,7 @@ body {
   background: #f5f4fa;
   cursor: pointer;
 }
+
 .filter .filter-button:hover,
 .filter .filter-button:focus {
   color: white;
@@ -171,6 +188,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
 .card-text {
   font-size: 16px;
   line-height: 30px;
