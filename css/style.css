@@ -8,11 +8,11 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--main-color);
 }
 .link {
   text-decoration: none;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .list {
@@ -64,12 +64,15 @@ body {
 
 /*------------------------ Hero ------------------------- */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background);
 }
 
 .hero-title {
+  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--white-color-text);
 }
 
@@ -106,7 +109,6 @@ body {
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -136,7 +138,7 @@ body {
 
 .team-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -191,7 +193,7 @@ body {
 
 .card-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
